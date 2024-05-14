@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Joc x/0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+
+    <center>
+
+        <h1 class="titlu">Joc de x și 0</h1>
+        <table class="tablajoc" border=1px solid black>
+            <tr>
+                <td><input id="nr1" type="text" class="input" value="" onclick="functieXsi0(1)"></td>
+                <td><input id="nr2" type="text" class="input" value="" onclick="functieXsi0(2)"></td>
+                <td><input id="nr3" type="text" class="input" value="" onclick="functieXsi0(3)"></td>
+            </tr>
+            <tr>
+                <td><input id="nr4" type="text" class="input" value="" onclick="functieXsi0(4)"></td>
+                <td><input id="nr5" type="text" class="input" value="" onclick="functieXsi0(5)"></td>
+                <td><input id="nr6" type="text" class="input" value="" onclick="functieXsi0(6)"></td>
+            </tr>
+            <tr>
+                <td><input id="nr7" type="text" class="input" value="" onclick="functieXsi0(7)"></td>
+                <td><input id="nr8" type="text" class="input" value="" onclick="functieXsi0(8)"></td>
+                <td><input id="nr9" type="text" class="input" value="" onclick="functieXsi0(9)"></td>
+            </tr>
+        </table>
+
+        <br>
+        <p id="castig"></p>
+        <br>
+        <input id="restart" name="restart" type="submit" class="restart" value="restart" onclick="restartare()">
+        <br> <br>
+
+        <table class="scor">
+            <tr>
+                <td><input id="j1" type="text" value=""></td>
+                <td><input id="j2" type="text" value=""></td>
+            </tr>
+            <tr>
+                <td><input id="scor1" type="text" value=0></td>
+                <td><input id="scor2" type="text" value=0></td>
+            </tr>
+        </table>
+
+        <script src="joc.js"></script>
+    </center>
+
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.tablajoc {
+    background-color: blue;
+    border: 1px solid black;
+
+}
+
+.body {
+    background-color: brown;
+}
+
+.titlu {
+    color: rgb(122, 21, 218);
+}
+
+.input {
+
+    border: 0;
+    width: 19px;
+    background-color: blue;
+}
+
+.restart {
+    background-color: rgb(122, 21, 218);
+    padding: 11px;
+    border: blueviolet;
+    box-shadow: 0 0 15px 4px rgba(216, 38, 177, 0.767);
+    border-radius: 55px;
+}
+
+.scor {
+    background-color: rgba(232, 100, 237, 0.212);
+}
